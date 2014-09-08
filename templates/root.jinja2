@@ -1,0 +1,13 @@
+{% extends 'base.jinja2' %}
+
+{% block head %}
+    {% css_bundle 'root' %}
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <button id="button">click me</button>
+        <div id="hello"><img src="{% img 'loading.gif' %}"></div>
+    </div>
+    {% js_bundle 'root' %}
+{% endblock %}

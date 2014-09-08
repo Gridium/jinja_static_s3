@@ -1,0 +1,4 @@
+__pycache__/
+localconfig.py
+static/bundles/
+static/css/compiled/
